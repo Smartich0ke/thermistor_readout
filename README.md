@@ -1,0 +1,1 @@
+Arduino thermistor conversion to degrees C
