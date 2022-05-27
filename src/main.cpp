@@ -15,6 +15,7 @@ void loop() {
   v = analogRead(THERMISTOR_PIN);
   //v = 1000 - 372 * 2;
   temp = 200 - 68 * log(1000-v);
-  Serial.println(temp);
+  Serial.print(temp);
+  Serial.print("C\n");
   delay(1000);
 }
